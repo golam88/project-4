@@ -1,0 +1,65 @@
+@media only screen and (max-width:768px){
+    .section-2 .cover{
+        background-position: -24vmin -20vmin;
+    }
+    .numbers .react{
+        width: 11rem;
+        height: 7rem;
+    }
+    .numbers .react h1{
+        font-size: 6vmin;
+    }
+    .section-5 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-left: 0px;
+    }    
+    .section-5 .team .carousel-inner{
+        width: 22rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .sticky{
+        position: fixed;
+        width: 100%;
+        background:linear-gradient(90deg, rgba(249,83,198,1) 0%, rgba(101,78,163,1)  100%);;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        transition: 0.3s ;
+        padding-left: 2vmin !important;
+        padding-right: 2vmin !important;
+    }
+}
+@media only screen and (max-width:425px){
+    .section-1 .devid {
+        margin-right: 2em;
+        margin-bottom: -8em;
+    }
+    .section-5 .team .card{
+        width: 18rem;
+        padding-left: 2em;
+    }
+
+    .section-5 .team .carousel-inner{
+        padding-left: 1.5em;
+        width: 24rem;
+        margin-bottom: 10px;
+    }
+    .section-4 .platform .desktop{
+        display: block;
+    }
+}
+@media only screen and (max-width:320px){
+     .section-5 .team .card{
+         margin-left: 2em;
+         width: 17rem;
+    }
+    .section-5 .team .carousel-inner{
+        padding-left: 0;
+        margin-left: -2em;
+     }
+    
+}
+    

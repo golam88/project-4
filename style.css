@@ -1,0 +1,270 @@
+/* Font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+
+*{
+ box-sizing: border-box;   
+} 
+header,section,div{
+    overflow-x: hidden;
+}
+:root{
+    --Snigle:'Sniglet', cursive;
+    --Rubik:'Rubik', sans-serif;
+    --Patua: 'Patua One', cursive;
+    --Lobster:'Lobster', cursive;
+    --bggradient:linear-gradient(90deg, rgba(101,78,163,1) 0%, rgba(249,83,198,1) 100%);
+    --gray:rgba(255,255,255,0.8);
+    --box-shadow:0px 25px 42px rgba(0,0,0,0.2);
+    --react-shadow:1px 2px 50px 0px rgba(255,0,0,0.349)
+}
+header{
+    background: var(--bggradient);
+}
+header .navbar-brand{
+    font-family: var(--Snigle);
+    margin-bottom: .1rem;
+    color: whitesmoke !important;
+}
+header .navbar-nav  .nav-link{
+    font-family: var(--Snigle);
+    color: whitesmoke !important;
+    text-transform: uppercase;
+}
+header .navbar-nav .nav-link:hover {
+    color: #121416 !important;
+}
+
+header .col-md-7{
+    padding-top: 20vmin ;
+    padding-left: 5vmin;
+    font-family: var(--Lobster)
+    padding-bottom: 20vmin;
+}
+header .col-md-7 h6{
+    color: white;
+    line-height: 5px;
+    letter-spacing: 10px;
+}
+header .col-md-7 h1{
+    color: white;
+    font-size: 6vmin;
+    padding-top: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+header .col-md-7 p{
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+header .col-md-7 button{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+header .col-md-5 img{
+    width: 23rem;
+    padding-bottom: 20vmin;
+    padding-top: 10vmin;
+    padding-right: 10vmin;
+    padding-left: 5vmin;
+    filter: brightness(150%);
+}
+.section-1 .row  .devid img{
+    width: 20rem;
+    height: auto;
+    padding:20vmin 0;
+    padding-left: 10vmin;
+}
+
+.section-1 .row  .devid-content{
+    margin:20vmin 0;
+    padding-left: 10vmin;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+}
+.section-1 .row .devid-content h2{
+    padding: 15px 0px;
+    font-family: var(--Rubik);
+    font-weight: 600;
+}
+.section-1 .row .devid-content p{
+    color:rgba(0,0,0,0.5);
+    font-family: var(--Rubik);
+    font-size: 0.9rem;
+}
+.section-2 .cover{
+    width: 100%;
+    height: 55vmin;
+    background-image: url('./img/pexels-photo-452738.jpeg');
+    background-position: -20rem -19rem;
+    background-size: 150%;
+}
+.section-2 .cover .content{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    padding: 23vmin 0;
+    overflow-y: hidden;
+}
+.section-2 .cover .content h1{
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+.section-2 .cover .content p{
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: whitesmoke;
+}
+ .numbers .react{
+    width: 17rem;
+    height: 12rem;
+    background: white;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    box-shadow:1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+    border-radius: 0.5rem;
+}
+.numbers .react h1{
+    font-size: 5rem;
+    color: tomato;
+}
+.numbers .react p{
+    font-family: var(--Patua);
+}
+.purchase h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1rem;
+    font-family: var(--Lobster);
+}
+.purchase p{
+    color: #6F6D8E;
+    padding-bottom: 15vmin;
+    font-size: 3vmin;
+}
+.cards{
+    padding-bottom: 15vmin;
+}
+.cards div{
+    margin: 0;
+    padding: 0;
+}
+.cards .card{
+   width: 20rem !important;
+   margin: 3vmin 2vmin;
+}
+.cards .card .card-title{
+    background: #F6FCFC;
+    padding: 1.2em 2.5em;
+    font-size: 1.2rem;
+}
+.card-body p {
+    color: #6c757d!important;
+    margin: 3rem 01rem;
+}
+.card-body h2 {
+    font-size: 4.5rem;
+    padding: 4rem 0rem;
+}
+.card-body a{
+    margin-bottom: 1rem;
+}
+.section-4{
+    background: var(--bggradient);
+    /* height: 55vmin; */
+}
+.section-4 .download h1{
+    padding: 3vmin 2vmin;
+    font-size: 6vmin;
+    font-family: var(--Rubik);
+    font-weight: bold;
+    color: whitesmoke;
+} 
+.section-4 .download p{
+    padding-bottom: 2vmin;
+    font-size: 3vmin;
+    color: white;
+}
+.section-4 .platform{
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
+}
+.section-4 .platform .desktop{
+    display: inline-block;
+    border-radius: 3em;
+    background: white;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+    cursor: pointer;
+}
+.container.text-center {
+    padding-top: 15vmin;
+}
+.section-5,div{
+    overflow-x:unset ;
+}
+.section-5 .team{
+    padding: 10vmin 4vmin;
+}
+.section-5 .team .card{
+    width: 22rem;
+}
+.section-5 .team .card-text{
+    padding: 0.5em;
+}
+.section-5 .team .card p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+    margin-top: 1em;
+}
+footer{ 
+    background-color: #2F2F2F;
+    overflow-x: hidden;
+}
+footer .row{
+    padding: 12vmin 10vmin;
+}
+h2.text-light {
+    padding: 15px 0;
+}
+
+.column {
+    color:  whitesmoke;
+    padding-top: 1vmin;
+    cursor: pointer;
+}
+.column i{
+    padding-right: 5px;
+   font-size: 25px;
+}
+.column i:hover{
+    color:rgba(249,83,198,1);;
+}
+.input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+input.form-control.bg-dark.text-white {
+    border: none;
+    outline: none;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    background:linear-gradient(90deg, rgba(249,83,198,1) 0%, rgba(101,78,163,1)  100%);;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transition: 0.3s ;
+    padding-left: 20vmin;
+    padding-right: 20vmin;
+    
+}
+
+linear-gradient(90deg, rgba(101,78,163,1) 0%, rgba(249,83,198,1) 100%);
